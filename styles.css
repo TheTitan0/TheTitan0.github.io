@@ -1,13 +1,30 @@
 body {
-	background-color: #ee8021;
+	background-color: #495057;
+	
   }
-h1 {
-	color: #381a21;
+  
+.center {
+	color: #ffffff;
 	text-align: center;
 	text-decoration: underline;
-	text-shadow: 1px 1px 8px #381a21;
+	text-shadow: 5px 1px 8px #000000;
+	font-family: Impact, sans-serif;
+	font-size: 500%;
+
+	
 	
 }
 p {
 	text-align: center;
+}
+
+
+.square {
+	height: 200px;
+	width: 100%;
+	display: flex;
+	background-color: #2a2f34;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
 }
